@@ -1,0 +1,78 @@
+/* Side Menu */
+.side-menu {
+    display: none; /* ซ่อน side menu */
+    position: fixed;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #888888;
+    height: 100vh;
+    width: 240px;
+    color: rgba(255, 255, 255, 0.3);
+
+
+    /* background-image: url(https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    z-index: 1000;
+}
+
+.side-menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+
+.side-menu .side-menu-header {
+    height: 60px;
+}
+
+.side-menu .side-menu-body {
+    position: relative;
+    flex: 1 0 auto;
+}
+
+.side-menu .side-menu-body .title {
+    margin: 1em 0;
+}
+
+.side-menu .side-menu-body ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.side-menu .side-menu-body ul.menu li.menu-item a.item-link {
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.56em 1em;
+    
+    transition: all 0.2s ease-in-out;
+}
+
+.side-menu .side-menu-body ul.menu li.menu-item a.item-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.side-menu .side-menu-body>.content-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.side-menu .side-menu-footer {
+    height: 60px;
+}
+/* Side Menu */

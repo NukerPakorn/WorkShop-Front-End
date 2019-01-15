@@ -1,0 +1,12 @@
+/*  หน้าจอขนาด medium หรือ size iped */
+@media (min-width: 1024px) {
+    /* แสดงผล side menu โดยกำหนดให้ display เป้น flex */
+    .side-menu {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .wrapper, .appbar {
+        margin-left: 240px;
+    }
+}

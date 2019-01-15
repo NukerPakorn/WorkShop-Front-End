@@ -1,0 +1,17 @@
+.appbar {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+}
+.appbar button.btn-bar {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0.5em;
+    color: #666;
+}

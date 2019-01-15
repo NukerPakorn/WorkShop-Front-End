@@ -9,4 +9,7 @@
     .wrapper, .appbar {
         margin-left: 240px;
     }
+    .wrapper.full, .appbar.full {
+        margin-left: 0;
+    }
 }

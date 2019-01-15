@@ -6,12 +6,15 @@
     left: 0;
     display: -ms-flexbox;
     display: flex;
+    background-color: #F5F5F5;
 }
+
 .appbar button.btn-bar {
     border: none;
     background: none;
     outline: none;
-    font-size: 1em;
-    padding: 0.5em;
+    font-size: 1.2em;
+    padding: 1em;
     color: #666;
+    cursor: pointer;
 }

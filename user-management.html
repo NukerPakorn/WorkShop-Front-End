@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My WebApp</title>
+    <title>User Manamenent - My WebApp</title>
 
     <!-- Section styles -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/appbar.css">
     <link rel="stylesheet" href="css/sidemenu.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -28,7 +29,7 @@
                 <div class="row">
                     <ul class="menu">
                         <li class="menu-item"><a href="index.html" class="item-link">Home</a></li>
-                        <li class="menu-item"><a href="user-management.html" class="item-link">User Management</a></li>
+                        <li class="menu-item"><a href="#" class="item-link">User Management</a></li>
                         <li class="menu-item"><a href="#" class="item-link">About Us</a></li>
                     </ul>
                 </div>
@@ -41,20 +42,43 @@
     <div class="wrapper" id="wrapper">
         <div class="appbar" id="appbar">
             <button type="button" class="btn-bar"><i class="fas fa-bars"></i></button>
-            <h2 class="page-title">Home</h2>
+            <h2 class="page-title">User Mananement</h2>
         </div>
 
         <div class="content-wrapper">
-            <h1>Basic Front-End <small><i>Mobile First</i></small></h1>
-            <p>Make Responsive UI without bootstrap.</p>
-            <h2>Using</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Font awesome</li>
-            </ul>
+            <h2>User List</h2>
+            <div class="table-responsive">
+                <table class="table hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Username</th>
+                            <th>email</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Username1</td>
+                            <td>email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Username2</td>
+                            <td>email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Username3</td>
+                            <td>email</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 

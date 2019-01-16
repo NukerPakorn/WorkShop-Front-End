@@ -24,3 +24,16 @@ button, input, textarea, select {
 * {
     box-sizing: border-box;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table thead tr th {
+    text-align: left;
+    font-weight: 400;
+}
+table th, table td {
+    border: solid 1px #e6e6e6;
+    padding: 0.5rem;
+}

@@ -6,6 +6,8 @@
     left: 0;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: #F5F5F5;
 }
 
@@ -17,4 +19,8 @@
     padding: 1em;
     color: #666;
     cursor: pointer;
+}
+.appbar .page-title {
+    margin-bottom: 0;
+    margin-left: 0.3em;
 }

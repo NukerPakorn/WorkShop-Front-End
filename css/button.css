@@ -5,6 +5,8 @@
     transition: all 0.2s ease-in-out;
     outline: none;
     text-decoration: none;
+    display: inline;
+    color: #444;
 }
 .btn-default {
     border: solid 1px #eee;

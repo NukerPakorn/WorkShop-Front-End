@@ -73,7 +73,7 @@
 /* Hover */
 .side-menu .side-menu-body ul.menu li.menu-item a.item-link:hover {
     color: rgba(255, 255, 255, 0.9);
-    background-color: #00bcd4;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 /* Active */
 .side-menu .side-menu-body ul.menu li.menu-item a.item-link.active {

@@ -15,12 +15,24 @@
     border: none;
     background: none;
     outline: none;
-    font-size: 1.2em;
     padding: 1em;
     color: #666;
     cursor: pointer;
 }
+.appbar button.btn-avatar {
+    border: none;
+    background: none;
+    outline: none;
+    color: #666;
+    cursor: pointer;
+}
+.appbar button.btn-avatar .icon, .appbar button.btn-bar .icon {
+    font-size: 1.2em;
+}
 .appbar .page-title {
     margin-bottom: 0;
     margin-left: 0.3em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }

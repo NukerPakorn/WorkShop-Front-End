@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>User Manamenent - My WebApp</title>
+    <title>New User - My WebApp</title>
 
     <!-- Section styles -->
     <link rel="stylesheet" href="../css/site.css">
@@ -37,7 +37,7 @@
     <div class="wrapper" id="wrapper">
         <div class="appbar" id="appbar">
             <button type="button" class="btn-bar"><span class="icon"><i class="fas fa-bars"></i></span></button>
-            <h2 class="page-title">User Mananement</h2>
+            <h2 class="page-title">User Mananement - New User</h2>
             <div class="ml-auto mr-2">
                 <button class="btn-avatar"><span class="icon"><i class="fas fa-user-circle"></i></span></button>
             </div>
@@ -45,39 +45,23 @@
 
         <div class="content-wrapper content">
             <div class="d-flex align-items-center mb-3">
-                <h2 class="mb-0">User List</h2>
+                <h2 class="mb-0">Profile</h2>
                 <div class="ml-auto">
-                    <a href="../UserManagement/new-user.html" class="btn btn-info">New User</a>
+                    <button class="btn btn-info">Save</button>
                 </div>
             </div>
-
-            <div class="table-responsive">
-                <table class="table hover">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Username</th>
-                            <th>email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Username1</td>
-                            <td>email</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Username2</td>
-                            <td>email</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Username3</td>
-                            <td>email</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="container">
+                <form>
+                    <div class="form-group row">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group row">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group row">
+                        <a href="../UserManagement/user-management.html" class="btn btn-default">Cancel</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

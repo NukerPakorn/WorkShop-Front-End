@@ -18,9 +18,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 button, input, textarea, select {
-    font-family: inherit; /* inherit from body */
-    font-size: inherit;
-    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;/* inherit from body */
+    color: inherit;/* inherit from body */
+    outline: none;
 }
 
 * {

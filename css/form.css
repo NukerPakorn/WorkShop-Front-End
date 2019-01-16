@@ -1,5 +1,13 @@
+.form-group {
+    margin-bottom: 1.3rem;
+}
 .form-control {
     width: 100%;
     padding: 0.5em 0.6em;
-    border: solid 1px #eee;
+    border: solid 1px #d8d8d8;
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+}
+.form-control:focus {
+    border-color: #aaa;
 }
